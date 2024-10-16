@@ -1,0 +1,32 @@
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons-container {
+    margin-left: auto;
+    display: flex;
+}
+
+.footer-icons-container .btn--large {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.footer-copyright-text {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 960px) {
+
+
+    .footer-icons-container .btn-mobile {
+        padding: 4px;
+        margin: 2px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,121 @@
+.testimonials-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom left, #242424, #111, #333);
+    padding-bottom: 30px;
+
+}
+
+
+.testimonials-content-container {
+    padding-top: 30px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+
+
+}
+
+.testimonial-quote {
+    position: relative;
+    color: white;
+    margin: 10px;
+    width: 25%;
+    background: linear-gradient(to bottom left, #242424, #111, #333);
+    z-index: 20;
+}
+
+.testimonial-quote p {
+    background: linear-gradient(to bottom left, #242424, #111, #333);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+
+}
+
+.testimonial-quote::after,
+.testimonial-quote::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), purple, #FF6A00, purple);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 2px;
+    z-index: -1;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
+
+
+}
+
+.testimonial-quote::before {
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+@keyframes spin {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+}
+
+hr {
+    border-top: 3px solid #bbb;
+    width: 80%;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 20px;
+}
+
+.testimonial-sentance {
+    font-size: 24px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 80%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 960px) {
+    .testimonials-content-container {
+        flex-flow: column;
+        flex-direction: column-reverse;
+        width: 80%;
+        align-items: center;
+
+    }
+
+    .testimonial-quote {
+
+        color: white;
+        background-color: transparent;
+        width: 100%;
+
+
+
+    }
+}

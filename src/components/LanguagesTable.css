@@ -1,0 +1,105 @@
+.skills-table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.languages-table {}
+
+.skills-table-header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* 5 skill levels + 1 for skill name */
+    grid-gap: 10px;
+
+}
+
+.skill-level-label {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.skill-level-text {
+    z-index: 5;
+}
+
+.skill-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* 5 skill levels + 1 for skill name */
+    grid-gap: 10px;
+    height: 100px;
+}
+
+.skill-name {
+    grid-column: 1;
+    align-self: center;
+    width: 150px;
+    color: #F4E0FF;
+    background-color: #7700B7;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.gem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gem-image {
+    height: 100%;
+    max-width: 75%;
+}
+
+.active-gem {
+    animation: pulse2 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    .skills-table-header {
+        display: none;
+    }
+
+    .languages-table {
+        height: 100%;
+        max-width: 100%;
+        padding: none;
+    }
+
+    .gem-image {
+        height: auto;
+        width: 100%;
+    }
+
+    .skill-name {
+        width: 100px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {}

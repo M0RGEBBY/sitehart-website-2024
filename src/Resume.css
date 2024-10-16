@@ -1,0 +1,812 @@
+.bg0 {
+    background-image: url(/public/Images/0.png);
+}
+
+.bg1 {
+    background-image: url(/public/Images/1.png);
+}
+
+.bg2 {
+    background-image: url(/public/Images/2.png);
+}
+
+.bg3 {
+    background-image: url(/public/Images/3.png);
+
+}
+
+.bg4 {
+    background-image: url(/public/Images/4.png);
+}
+
+.bg5 {
+    background-image: url(/public/Images/5.png);
+}
+
+#bg6 {
+    background-image: url(/public/Images/6.png);
+    height: 100%;
+
+}
+
+.skills-bg0 {
+    background-image: url(/public/Images/bg2.png);
+}
+
+.skills-bg1 {
+    background-image: url(/public/Images/rock1.png);
+}
+
+.skills-bg2 {
+    background-image: url(/public/Images/rock2.png);
+}
+
+.skills-bg3 {
+    background-image: url(/public/Images/rock3.png);
+}
+
+.skills-bg4 {
+    background-image: url(/public/Images/rock4.png);
+}
+
+.resume-container {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100%;
+}
+
+.para-container {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background-size: contain;
+    overflow: hidden;
+
+
+}
+
+.para-container .bg0 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.para-container .bg1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+
+
+}
+
+.para-container .bg2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    background-position: center;
+
+
+}
+
+.para-container .bg3 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    background-position: center;
+
+
+
+}
+
+.para-container .bg4 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    background-position: center;
+
+
+}
+
+
+.para-container .bg5 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+
+
+
+}
+
+.para-container .bg6 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/6.png);
+    background-size: 100% 100%;
+    position: relative;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+
+    z-index: 10;
+
+}
+
+.hero-title-div {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(0px)translateX(-50%);
+    /* Adjust positioning as needed */
+    text-align: center;
+    color: white;
+
+    /* Set the text color to white or any desired color */
+}
+
+.hero-title {
+    font-size: 100px;
+}
+
+.about-resume-content-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+
+}
+
+.indiana-div {
+    width: 50%;
+    text-align: center;
+    display: flex;
+
+}
+
+.portrait-div {
+    width: 50%;
+    text-align: center;
+}
+
+.portrait-div>img {
+    width: 100%;
+    height: 100%;
+}
+
+.indiana-div>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.skills-section-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.skills-section-container .skills-bg0 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/bg2.png);
+    background-size: 100% 100%;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    z-index: 10;
+
+}
+
+.skills-section-container .skills-bg1 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/rock1.png);
+    background-size: 100% 100%;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    z-index: 15;
+
+}
+
+.skills-section-container .skills-bg2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/rock2.png);
+    background-size: 100% 100%;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    z-index: 14;
+
+}
+
+.skills-section-container .skills-bg3 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/rock3.png);
+    background-size: 100% 100%;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    z-index: 13;
+
+}
+
+.skills-section-container .skills-bg4 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(/public/Images/rock4.png);
+    background-size: 100% 100%;
+    max-width: 100%;
+    /* Set the maximum width */
+    max-height: 100%;
+    /* Set the maximum height */
+    z-index: 12;
+
+}
+
+.software-section-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/public/Images/cave\ background.png);
+    background-size: cover;
+}
+
+
+.language-section-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.resume-header {
+    text-align: center;
+    font-size: 80px;
+    z-index: 30;
+    padding-bottom: 20px;
+
+}
+
+.resume-header-div {
+    margin-top: 30px;
+}
+
+.experience-section-container {
+    background-image: url(/public/Images/cave\ background.png);
+
+
+
+
+}
+
+.experience-stop1-content {
+    width: 50%;
+    background-color: #7700B7;
+    border: 10px solid #5E0091;
+    padding: 40px;
+    border-left: none;
+    margin-bottom: 200px;
+    margin-top: 150px;
+    position: relative;
+}
+
+.magic-wand-icon {
+    position: absolute;
+    top: -160px;
+    right: -180px;
+}
+
+.stop1-date {
+    padding-right: 100px;
+    font-size: 40px;
+}
+
+.stop1-descrip {
+    padding-top: 20px;
+}
+
+.stop1-company {
+
+    font-size: 60px;
+}
+
+.experience-stop2-content {
+    width: 50%;
+    background-color: #7700B7;
+    border: 10px solid #5E0091;
+    padding: 40px;
+    border-right: none;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.experience-stop2-content>img {
+    position: absolute;
+    top: -160px;
+    left: -180px;
+}
+
+.experience-stop2-container {
+    display: flex;
+    justify-content: right;
+
+}
+
+
+.stop2-date {
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+.stop2-company {
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.stop2-descrip {
+    padding-top: 20px;
+}
+
+.experience-stop3-content {
+    width: 50%;
+    background-color: #7700B7;
+    border: 10px solid #5E0091;
+    padding: 40px;
+    border-left: none;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.experience-stop3-content>img {
+    position: absolute;
+    top: -150px;
+    right: -80px;
+    animation: wobble 2s infinite;
+
+}
+
+.stop3-date {
+    padding-right: 100px;
+    font-size: 40px;
+}
+
+.stop3-descrip {
+    padding-top: 20px;
+}
+
+.stop3-company {
+
+    font-size: 60px;
+}
+
+.education-container {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.edu-stop1-container {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #5E0091;
+}
+
+.edu-stop1-container>img {
+    width: 100%;
+}
+
+
+
+.edu-name1 {
+    font-size: 35px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.edu1-row1 {
+    align-items: baseline;
+    /* Vertically center items */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.edu1-row2 {
+    align-items: baseline;
+    /* Vertically center items */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+
+.edu-GPA1 {
+    text-align: left;
+    margin: 0 auto;
+
+}
+
+.resume-download-section {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #7700B7;
+    border: 10px solid #5E0091;
+    border-right: none;
+    border-left: none;
+    margin-top: 40px;
+}
+
+.resume-download-section .btn--large {
+    width: 80%;
+}
+
+.download-button {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.return-button {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.return-button .btn--large:hover .fa-arrow-up {
+    color: #5E0091;
+
+
+
+}
+
+.return-button .btn--large .fa-arrow-up {
+
+    animation: bounce 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    margin-left: 10px;
+}
+
+.experience-stop1-content>img {
+    animation: wobble 3s infinite;
+}
+
+.experience-stop2-content>img {
+    animation: pulse ease-in 2s infinite;
+}
+
+.edu-date1 {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.edu-degree1 {
+    text-align: right;
+}
+
+.magic-wand-icon-mobile {
+    display: none;
+    ;
+}
+
+.aim-icon-mobile {
+    display: none;
+    ;
+}
+
+.sitehart-icon-mobile {
+    display: none;
+    ;
+}
+
+@keyframes wobble {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        -webkit-transform: translateX(-10px) rotate(-20deg);
+        transform: translateX(-10px) rotate(-20deg);
+    }
+
+    30% {
+        -webkit-transform: translateX(calc(10px / 2)) rotate(20deg);
+        transform: translateX(calc(10px / 2)) rotate(20deg);
+    }
+
+    45% {
+        -webkit-transform: translateX(calc(-10px / 2)) rotate(calc(-20deg / 1.8));
+        transform: translateX(calc(-10px / 2)) rotate(calc(-20deg / 1.8));
+    }
+
+    60% {
+        -webkit-transform: translateX(calc(10px / 3.3)) rotate(calc(20deg / 3));
+        transform: translateX(calc(10px / 3.3)) rotate(calc(20deg / 3));
+    }
+
+    75% {
+        -webkit-transform: translateX(calc(-10px / 5.5)) rotate(calc(-20deg / 5));
+        transform: translateX(calc(-10px / 5.5)) rotate(calc(-20deg / 5));
+    }
+}
+
+.mobile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(0.6);
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .resume-header {
+        font-size: 40px
+    }
+
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .resume-subheader {
+        font-size: 30px;
+    }
+
+    .skill-table-master h1 {
+        font-size: 40px;
+    }
+
+    .portrait-div {
+        display: none;
+    }
+
+    .indiana-div {
+        width: 100%;
+    }
+
+    .experience-stop1-content {
+        width: 100%;
+        padding: 20px;
+        border: 10px solid #5E0091;
+    }
+
+
+    .experience-stop2-content {
+        width: 100%;
+        padding: 20px;
+        border: 10px solid #5E0091;
+    }
+
+    .experience-stop3-content {
+        width: 100%;
+        padding: 20px;
+        border: 10px solid #5E0091;
+    }
+
+    .magic-wand-icon {
+        display: none;
+    }
+
+    .aim-icon {
+        display: none;
+    }
+
+    .sitehart-icon {
+        display: none;
+    }
+
+    .magic-wand-icon-mobile {
+        display: unset;
+        height: 50%;
+        width: 50%;
+        animation: wobble 5s infinite;
+
+    }
+
+    .aim-icon-mobile {
+        display: unset;
+        height: 75%;
+        width: 75%;
+        animation: pulse 3s infinite;
+
+    }
+
+    .sitehart-icon-mobile {
+        display: unset;
+        height: 50%;
+        width: 50%;
+        animation: wobble 3s infinite;
+
+    }
+
+    .stop1-date {
+        padding: 0px;
+    }
+
+    .stop1-company {
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .stop1-descrip {
+        text-align: left;
+    }
+
+    .stop2-date {
+        padding: 0px;
+    }
+
+    .stop2-company {
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .stop2-descrip {
+        text-align: left;
+    }
+
+    .stop3-date {
+        padding: 0px;
+    }
+
+    .stop3-company {
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .stop3-descrip {
+        text-align: left;
+    }
+
+    .education-container {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
+
+
+    }
+
+    .edu-stop1-container {
+        width: 100%;
+    }
+
+    .resume-download-section {
+        flex-direction: column;
+    }
+
+    .download-button {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .return-button {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .para-container .bg6 {
+        background-size: cover;
+
+    }
+
+}

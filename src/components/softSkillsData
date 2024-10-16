@@ -1,0 +1,22 @@
+const softSkillsData = [
+    {
+        softSkill: 'Customer Service',
+        levels: ['Beginner', 'Novice', 'Intermediate', 'Advanced', 'Expert'],
+        progress: 4 // Indicates skill level, where 4 = expert.
+    },
+    {
+        softSkill: 'Critical Thinking',
+        levels: ['beginner', 'elementary', 'intermediate', 'advanced', 'expert'],
+        progress: 4
+    },
+    {
+        software: 'Employee Management',
+        levels: ['Beginner', 'Novice', 'Intermediate', 'Advanced', 'Expert'],
+        progress: 3 // Indicates skill level, where 4 = exper
+    },
+    {
+        software: 'Analysis',
+        levels: ['Beginner', 'Novice', 'Intermediate', 'Advanced', 'Expert'],
+        progress: 3 // Indicates skill level, where 4 = exper
+    },
+];
