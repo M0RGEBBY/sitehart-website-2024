@@ -1,5 +1,4 @@
 import '../../App.css';
-import ResumeHero from '../ResumeHero';
 import Footer from '../Footer';
 import '../../Resume.css';
 import React, { useEffect, useRef } from 'react';
@@ -19,12 +18,6 @@ function Resume() {
     const bg6Ref = useRef(null);
     const heroTitleRef = useRef(null);
 
-
-    const skillsBg0Ref = useRef(null);
-    const skillsBg1Ref = useRef(null);
-    const skillsBg2Ref = useRef(null);
-    const skillsBg3Ref = useRef(null);
-    const skillsBg4Ref = useRef(null);
 
 
 
@@ -105,8 +98,8 @@ function Resume() {
                     </div>
 
                     <div className='about-resume-content-container'>
-                        <div className='indiana-div'><img src="../Images/indiana.png" className='indiana-img'></img></div>
-                        <div className='portrait-div'><img src="../Images/MorganMug2.png"></img></div>
+                        <div className='indiana-div'><img src="../Images/indiana.png" className='indiana-img' alt=''></img></div>
+                        <div className='portrait-div'><img src="../Images/MorganMug2.png" alt=''></img></div>
                     </div>
 
                     <div className='skills-section-container'>
@@ -126,8 +119,8 @@ function Resume() {
                     <div className='experience-section-container'><h1 className='resume-header'>EXPERIENCE</h1>
                         <div className='experience-stop1-container'>
                             <div className='experience-stop1-content'>
-                                <img src='.\Images\magicwandicon.png' className='magic-wand-icon'></img>
-                                <div className='mobile-icon'><img src='.\Images\magicwandicon.png' className='magic-wand-icon-mobile'></img></div>
+                                <img src='.\Images\magicwandicon.png' className='magic-wand-icon' alt=''></img>
+                                <div className='mobile-icon'><img src='.\Images\magicwandicon.png' alt='' className='magic-wand-icon-mobile'></img></div>
                                 <h1 className='stop1-date'>May 2016 - September 2022</h1>
                                 <h1 className='stop1-company'>Magic Wand Restaurant</h1>
                                 <p className='stop1-descrip'>Responsible for updating company website and for managing shifts. Managing shifts included overseeing a small team of 12-15 people and cashier balancing at the end of each shift. </p>
@@ -135,8 +128,8 @@ function Resume() {
                         </div>
                         <div className='experience-stop2-container'>
                             <div className='experience-stop2-content' >
-                                <img src='.\Images\aimicon.png' className='aim-icon'></img>
-                                <div className='mobile-icon'><img src='.\Images\aimicon.png' className='aim-icon-mobile'></img></div>
+                                <img src='.\Images\aimicon.png' className='aim-icon' alt=''></img>
+                                <div className='mobile-icon'><img src='.\Images\aimicon.png' className='aim-icon-mobile' alt=''></img></div>
 
 
                                 <h1 className='stop2-date'>May 2022 - Present</h1>
@@ -148,8 +141,8 @@ function Resume() {
                         </div>
                         <div className='experience-stop3-container'>
                             <div className='experience-stop3-content'>
-                                <img src='.\Images\siteharticon.png' className='sitehart-icon'></img>
-                                <div className='mobile-icon'><img src='.\Images\siteharticon.png' className='sitehart-icon-mobile'></img></div>
+                                <img src='.\Images\siteharticon.png' className='sitehart-icon' alt=''></img>
+                                <div className='mobile-icon'><img src='.\Images\siteharticon.png' className='sitehart-icon-mobile' alt=''></img></div>
 
 
                                 <h1 className='stop3-date'>2024 - Present</h1>
@@ -163,7 +156,7 @@ function Resume() {
                     <h1 className='resume-header'>EDUCATION</h1>
                     <div className='education-container'>
                         <div className='edu-stop1-container'>
-                            <img src='.\Images\ivytech.png'></img>
+                            <img src='.\Images\ivytech.png' alt=''></img>
                             <div className='edu1-row1'>
                                 <h1 className='edu-name1'>Ivy Tech Community College</h1>
                                 <p className='edu-location1'><FontAwesomeIcon icon="fa-solid fa-location-dot" /> Fort Wayne, IN</p>
@@ -179,7 +172,7 @@ function Resume() {
 
                         </div>
                         <div className='edu-stop1-container'>
-                            <img src='.\Images\pfw.png'></img>
+                            <img src='.\Images\pfw.png' alt=''></img>
                             <div className='edu1-row1'>
                                 <h1 className='edu-name1'>Purdue University - Fort Wayne</h1>
                                 <p className='edu-location1'><FontAwesomeIcon icon="fa-solid fa-location-dot" /> Fort Wayne, IN</p>
