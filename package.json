@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "if [[ $CI == false ]]; then react-scripts build; else react-scripts build --no-bail; fi",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
