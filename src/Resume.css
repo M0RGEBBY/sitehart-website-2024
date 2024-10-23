@@ -355,6 +355,12 @@
 
 }
 
+.resume-subheader {
+    font-size: 60px;
+    text-align: center;
+}
+
+
 .resume-header-div {
     margin-top: 30px;
 }
