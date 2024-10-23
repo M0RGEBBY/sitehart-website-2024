@@ -28,7 +28,7 @@ function AboutSiteHart() {
                     <p>Or</p>
                 </div>
                 <div className='btn-div'>
-                    <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' scrollToTop={true}>Request a quote today!</Button>
+                    <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' link="/coming-soon" scrollToTop={true}>Request a quote today!</Button>
                 </div>
             </div>
         </div>
