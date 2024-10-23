@@ -218,7 +218,8 @@
 .vertical-timeline-element-content p {
     font-size: 13px;
     font-size: .8125rem;
-    font-weight: 500
+    font-weight: 500;
+    color: black;
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date {
